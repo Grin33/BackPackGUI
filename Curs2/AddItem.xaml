@@ -1,0 +1,20 @@
+﻿<Window x:Class="Curs2.AddItem"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Curs2"
+        mc:Ignorable="d"
+        Title="AddItem" Height="290" Width="499" ResizeMode="NoResize">
+  <Grid>
+    <Button Content="Добавить" HorizontalAlignment="Left" Margin="178,156,0,0" VerticalAlignment="Top" Height="27" Width="72" Click="Button_Click_1"/>
+    <Label Content="Цена" HorizontalAlignment="Left" Margin="176,0,0,0" VerticalAlignment="Center"/>
+    <Label Content="Вес" HorizontalAlignment="Left" Margin="176,94,0,0" VerticalAlignment="Top"/>
+    <Label Content="Имя" HorizontalAlignment="Left" Margin="176,63,0,0" VerticalAlignment="Top"/>
+    <TextBox x:Name="NameBox" HorizontalAlignment="Left" Margin="214,63,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Height="26"/>
+    <TextBox x:Name="WeightBox" HorizontalAlignment="Left" Margin="214,94,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Height="26"/>
+    <TextBox x:Name="ValBox" HorizontalAlignment="Left" Margin="214,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="120" Height="26"/>
+    <Button Content="Закрыть" HorizontalAlignment="Left" Margin="262,156,0,0" VerticalAlignment="Top" Height="27" Width="72" Click="Button_Click"/>
+
+  </Grid>
+</Window>
